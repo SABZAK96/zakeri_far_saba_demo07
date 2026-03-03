@@ -10,8 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Web Components for shared navbar and footer layout -->
+    
     <script type="module" src="/src/components/site-navbar.js"></script> 
     <script type="module" src="/src/components/site-footer.js"></script>
+    
+        
 </head>
 
 <body>
@@ -23,6 +26,10 @@
 	<site-navbar></site-navbar>
 
 	<!-- Main content goes here -->
+<main class="container py-4">
+    <h1 id="hikeName">Loading...</h1>
+    <img id="hikeImage" class="img-fluid rounded mt-3" src="" alt="Hike image">
+</main>
 
 	<!-- our own footer goes here -->
 	<site-footer></site-footer>
@@ -32,6 +39,7 @@
     <!---------------------------------------------->
 
     <script type="module" src="/src/app.js"></script>
+    <script type="module" src="/src/eachHike.js"></script>
 
 </body>
 
